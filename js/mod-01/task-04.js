@@ -5,13 +5,10 @@ let message;
 
 const orderedQuantity = prompt('Какое количество дроидов Вы хотите купить?');
 
-switch (orderedQuantity) {
-  case null:
-    message = 'Отменено пользователем!';
-    break;
-
-  default:
-    totalPrice = pricePerDroid * orderedQuantity;
+if (orderedQuantity === null) {
+  message = 'Отменено пользователем!';
+} else {
+  totalPrice = pricePerDroid * orderedQuantity;
 }
 
 if (totalPrice > credits) {
