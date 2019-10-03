@@ -1,3 +1,5 @@
+console.log('Задание 1');
+
 const name = 'Генератор защитного поля';
 let price = 1000;
 

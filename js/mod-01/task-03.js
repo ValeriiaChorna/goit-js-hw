@@ -1,3 +1,5 @@
+console.log('Задание 3, см.alert');
+
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 

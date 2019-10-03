@@ -1,3 +1,5 @@
+console.log('Задание 5, см.alert');
+
 let message;
 let price;
 let userCountry = prompt('Введите название страны доставки:');

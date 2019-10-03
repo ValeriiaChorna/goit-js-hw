@@ -1,3 +1,5 @@
+console.log('Задание 6, см.alert');
+
 let input;
 let total = 0;
 
